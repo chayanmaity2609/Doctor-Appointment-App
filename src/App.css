@@ -1,0 +1,47 @@
+/* App.css */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.doctor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.booking-section,
+.email-validation-section,
+.button-container,
+.history-section {
+  margin-top: 24px;
+}
+
+.date-picker {
+  margin-bottom: 16px;
+}
+
+.confirm-button,
+.details-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.confirm-button:hover,
+.details-button:hover {
+  background-color: #2980b9;
+}
